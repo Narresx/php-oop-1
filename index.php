@@ -6,10 +6,11 @@ public $genre;
 public $rate;
 public $thought;
 
-public function __construct($title, $genre, $rate, $thought){
+public function __construct($title, $genre, $rate, $thought=''){
     $this->title = $title;
     $this->genre = $genre;
     $this->rate = $rate;
+    $this->thought = $thought;
 }
 
 public function getTitle(){
