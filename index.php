@@ -4,8 +4,9 @@ class Movie
 public $title;
 public $genre;
 public $rate;
+public $thought;
 
-public function __construct($title, $genre, $rate, $thought =''){
+public function __construct($title, $genre, $rate, $thought){
     $this->title = $title;
     $this->genre = $genre;
     $this->rate = $rate;
@@ -37,8 +38,8 @@ public function goodMovie(){
 
 }
 
-$movie1 = new Movie('I am legend.', ' adventure ', 10);
-$movie2 = new Movie('Batman Begins.', ' adventure ', 6);
+$movie1 = new Movie('I am legend.', ' adventure ', 10, '');
+$movie2 = new Movie('Batman Begins.', ' adventure ', 6, '');
 
 $movie1->goodMovie();
 echo $movie1->getTitle();
