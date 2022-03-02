@@ -45,6 +45,8 @@ echo $movie1->getThought();
 
 var_dump($movie1);
 
+$movie2->goodMovie();
+echo $movie2->getThought();
 var_dump($movie2);
 
 ?>
