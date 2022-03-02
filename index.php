@@ -29,9 +29,9 @@ public function getThought(){
 
 public function goodMovie(){
     if($this->rate > 7){
-        $this->thought = ' Is a good film';
+        $this->thought = ' Is a good film ';
     } else {
-        $this->thought = ' Is not a good film';
+        $this->thought = ' Is not a good film ';
     }
 }
 
